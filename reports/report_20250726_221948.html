@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Relatório de Detecção de DDoS</title>
+        <style>
+            body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 20px; background-color: #e8f5e9; color: #333; line-height: 1.6; }
+            .container { max-width: 960px; margin: auto; background: #ffffff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+            h1, h2 { color: #2e7d32; border-bottom: 2px solid #a5d6a7; padding-bottom: 10px; margin-top: 25px; }
+            h1 { text-align: center; color: #1b5e20; }
+            p { margin-bottom: 10px; }
+            table { width: 100%; border-collapse: collapse; margin-top: 15px; background-color: #ffffff; }
+            th, td { padding: 12px 15px; border: 1px solid #c8e6c9; text-align: left; }
+            th { background-color: #4caf50; color: white; font-weight: bold; }
+            tr:nth-child(even) { background-color: #f0f4c3; }
+            tr:hover { background-color: #e0e0e0; cursor: pointer; }
+            .alert-item { background-color: #fff9c4; margin-bottom: 8px; padding: 12px; border-left: 6px solid #fbc02d; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+            .blocked-ip-item { background-color: #ffcdd2; margin-bottom: 8px; padding: 12px; border-left: 6px solid #d32f2f; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+            .info-box { background-color: #c8e6c9; padding: 15px; border-radius: 8px; margin-bottom: 25px; border: 1px solid #a5d6a7; }
+            .footer { text-align: center; margin-top: 30px; font-size: 0.9em; color: #757575; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Relatório de Detecção de DDoS</h1>
+            <p><strong>Gerado em:</strong> 26/07/2025 22:19:48</p>
+
+            <div class="info-box">
+                <p>Este relatório apresenta um resumo das requisições, IPs ativos, IPs bloqueados e histórico de alertas detectados pelo sistema de monitoramento de DDoS.</p>
+                <p><strong>Parâmetros de Detecção Atuais:</strong><br>
+                Janela de Tempo para Contagem: 10 segundos<br>
+                Duração do Bloqueio: 50 segundos</p>
+                <p><strong>Parâmetros de Machine Learning:</strong><br>
+                Janela de Histórico: 60 pontos<br>
+                Multiplicador do Desvio Padrão: 3.0<br>
+                Mínimo de Pontos para ML: 5</p>
+            </div>
+
+            <h2>IPs Mais Ativos na Janela Atual (10s)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>IP</th>
+                        <th>Requisições na Janela</th>
+                    </tr>
+                </thead>
+                <tbody>
+    
+                    <tr>
+                        <td>201.201.201.201</td>
+                        <td>1</td>
+                    </tr>
+            
+                </tbody>
+            </table>
+
+            <h2>IPs Atualmente Bloqueados</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>IP</th>
+                        <th>Hora do Bloqueio</th>
+                        <th>Tempo Restante (segundos)</th>
+                    </tr>
+                </thead>
+                <tbody>
+    
+                    <tr>
+                        <td colspan="3">Nenhum IP bloqueado atualmente.</td>
+                    </tr>
+        
+                </tbody>
+            </table>
+
+            <h2>Histórico de Alertas de DDoS</h2>
+            <div>
+    <p>Nenhum arquivo de log de alertas encontrado.</p>
+            </div>
+            <div class="footer">
+                <p>Detector de DDoS Simulado - Projeto Acadêmico</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    

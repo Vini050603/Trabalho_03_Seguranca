@@ -1,0 +1,21 @@
+{
+    "timestamp_geracao": "2025-07-26T22:19:48.690226",
+    "ips_ativos_na_janela": [
+        {
+            "ip": "201.201.201.201",
+            "requisições_na_janela": 1
+        }
+    ],
+    "ips_bloqueados": [],
+    "alertas_historico": [],
+    "parametros_ml": {
+        "history_window_size": 60,
+        "std_dev_multiplier": 3.0,
+        "min_history_points": 5
+    },
+    "parametros_gerais": {
+        "time_window": 10,
+        "block_duration": 50,
+        "alerta_cooldown": 15
+    }
+}

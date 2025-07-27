@@ -1,0 +1,141 @@
+{
+    "timestamp_geracao": "2025-07-26T22:23:06.394929",
+    "ips_ativos_na_janela": [
+        {
+            "ip": "201.201.201.201",
+            "requisições_na_janela": 108
+        },
+        {
+            "ip": "200.200.200.200",
+            "requisições_na_janela": 103
+        },
+        {
+            "ip": "172.16.0.12",
+            "requisições_na_janela": 102
+        },
+        {
+            "ip": "10.0.0.6",
+            "requisições_na_janela": 98
+        },
+        {
+            "ip": "172.16.0.10",
+            "requisições_na_janela": 83
+        },
+        {
+            "ip": "172.16.0.11",
+            "requisições_na_janela": 50
+        },
+        {
+            "ip": "192.168.1.3",
+            "requisições_na_janela": 49
+        },
+        {
+            "ip": "192.168.1.1",
+            "requisições_na_janela": 45
+        },
+        {
+            "ip": "192.168.1.2",
+            "requisições_na_janela": 42
+        },
+        {
+            "ip": "10.0.0.7",
+            "requisições_na_janela": 40
+        },
+        {
+            "ip": "10.0.0.5",
+            "requisições_na_janela": 38
+        }
+    ],
+    "ips_bloqueados": [
+        {
+            "ip": "200.200.200.200",
+            "hora_bloqueio": "2025-07-26T22:22:28.015295",
+            "tempo_restante_segundos": 11.620280999999999
+        },
+        {
+            "ip": "201.201.201.201",
+            "hora_bloqueio": "2025-07-26T22:22:30.582643",
+            "tempo_restante_segundos": 14.187607
+        },
+        {
+            "ip": "172.16.0.12",
+            "hora_bloqueio": "2025-07-26T22:22:51.296046",
+            "tempo_restante_segundos": 34.900999999999996
+        }
+    ],
+    "alertas_historico": [
+        {
+            "timestamp": "2025-07-26T22:19:50.870923",
+            "ip": "200.200.200.200",
+            "requisicoes": 101,
+            "janela_tempo_segundos": 10,
+            "tipo_alerta": "INICIAL"
+        },
+        {
+            "timestamp": "2025-07-26T22:20:01.722792",
+            "ip": "10.0.0.6",
+            "requisicoes": 101,
+            "janela_tempo_segundos": 10,
+            "tipo_alerta": "INICIAL"
+        },
+        {
+            "timestamp": "2025-07-26T22:20:43.349357",
+            "ip": "200.200.200.200",
+            "requisicoes": 101,
+            "janela_tempo_segundos": 10,
+            "tipo_alerta": "INICIAL"
+        },
+        {
+            "timestamp": "2025-07-26T22:20:44.605719",
+            "ip": "201.201.201.201",
+            "requisicoes": 101,
+            "janela_tempo_segundos": 10,
+            "tipo_alerta": "INICIAL"
+        },
+        {
+            "timestamp": "2025-07-26T22:20:52.504489",
+            "ip": "172.16.0.12",
+            "requisicoes": 101,
+            "janela_tempo_segundos": 10,
+            "tipo_alerta": "INICIAL"
+        },
+        {
+            "timestamp": "2025-07-26T22:21:08.776726",
+            "ip": "172.16.0.10",
+            "requisicoes": 101,
+            "janela_tempo_segundos": 10,
+            "tipo_alerta": "INICIAL"
+        },
+        {
+            "timestamp": "2025-07-26T22:21:35.540569",
+            "ip": "200.200.200.200",
+            "requisicoes": 101,
+            "janela_tempo_segundos": 10,
+            "tipo_alerta": "INICIAL"
+        },
+        {
+            "timestamp": "2025-07-26T22:21:51.281195",
+            "ip": "172.16.0.12",
+            "requisicoes": 101,
+            "janela_tempo_segundos": 10,
+            "tipo_alerta": "INICIAL"
+        },
+        {
+            "timestamp": "2025-07-26T22:22:30.449580",
+            "ip": "201.201.201.201",
+            "requisicoes": 101,
+            "janela_tempo_segundos": 10,
+            "tipo_alerta": "INICIAL"
+        }
+    ],
+    "parametros_ml": {
+        "history_window_size": 60,
+        "std_dev_multiplier": 3.0,
+        "min_history_points": 5
+    },
+    "parametros_gerais": {
+        "time_window": 10,
+        "block_duration": 50,
+        "alerta_cooldown": 15
+    }
+}
