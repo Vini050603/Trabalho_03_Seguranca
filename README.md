@@ -28,7 +28,7 @@ Geração de Relatórios Detalhados: Cria relatórios em formatos JSON e HTML co
 
 Multi-threading: Utiliza threads para simular requisições, monitorar logs, gerenciar bloqueios e atualizar o dashboard simultaneamente, garantindo um sistema responsivo.
 
-💻 Como Executar:
+## Como Executar:
 Pré-requisitos:
 
 Python 3.x
@@ -39,7 +39,7 @@ Permissões de Administrador/Root:
 
 Windows: Execute o Prompt de Comando ou PowerShell como Administrador.
 
-Linux: Execute o script com sudo (ex: sudo python3 seu_script.py).
+Linux: Execute o script com sudo (ex: sudo python3 projeto_2_08.py).
 
 Execução:
 
@@ -48,7 +48,7 @@ Bash
 python seu_script.py
 O script imprimirá o link do dashboard e tentará abri-lo automaticamente no seu navegador padrão.
 
-🛠️ Tecnologias Utilizadas:
+## Tecnologias Utilizadas:
 Python 3: Linguagem principal.
 
 Flask: Micro-framework web para o dashboard.
